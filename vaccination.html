@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaccinations by Age Group</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f6ff;
+      color: #003366;
+      text-align: center;
+    }
+
+    header {
+      background-color: #0066cc;
+      color: white;
+      padding: 20px 0;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 0;
+      gap: 30px;
+    }
+
+    .block {
+      background-color: white;
+      width: 220px;
+      height: 220px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: #003366;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .block:hover {
+      background-color: #e6f0ff;
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 102, 204, 0.2);
+    }
+
+    .emoji {
+      font-size: 50px;
+      margin-bottom: 10px;
+      filter: brightness(0) saturate(100%) invert(16%) sepia(100%) saturate(1300%) hue-rotate(185deg) brightness(95%) contrast(97%);
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      padding: 15px 0;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    img.icon {
+      width: 60px;
+      height: 60px;
+      filter: invert(9%) sepia(80%) saturate(1800%) hue-rotate(200deg) brightness(95%) contrast(100%);
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>💉 Vaccinations by Age Group</header>
+
+  <div class="container">
+    <a href="#" class="block">
+      <img src="https://cdn-icons-png.flaticon.com/512/456/456212.png" alt="Infant Icon" class="icon">
+      <h3>Infants & Young Children</h3>
+      <p>(0–6 years)</p>
+    </a>
+
+    <a href="#" class="block">
+      <img src="https://cdn-icons-png.flaticon.com/512/921/921074.png" alt="Child Icon" class="icon">
+      <h3>School-Age Children</h3>
+      <p>(7–12 years)</p>
+    </a>
+
+    <a href="#" class="block">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135823.png" alt="Teen Icon" class="icon">
+      <h3>Adolescents</h3>
+      <p>(13–18 years)</p>
+    </a>
+
+    <a href="#" class="block">
+      <img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png" alt="Adult Icon" class="icon">
+      <h3>Adults</h3>
+      <p>(19–60 years)</p>
+    </a>
+
+    <a href="#" class="block">
+      <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Elder Icon" class="icon">
+      <h3>Older Adults</h3>
+      <p>(60+ years)</p>
+    </a>
+  </div>
+
+  <footer>© 2025 Health Awareness Initiative | Blue & White Theme</footer>
+</body>
+</html>
